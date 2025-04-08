@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav className="flex justify-between items-center px-4 py-3 shadow bg-white">
       <Link href="/home">
-      <h1 className="text-2xl font-bold text-blue-700">QuickCart</h1>
+      <h1 className="sm:flex hidden text-2xl font-bold text-blue-700">QuickCart</h1>
       </Link>
       <div className="flex items-center gap-2 w-full max-w-md mx-4">
         <input
